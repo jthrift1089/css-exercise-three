@@ -1,16 +1,17 @@
 
 .content {
-margin-top: 5%;
-margin-right: 10%
-margin-left: 10%;
+  margin-top: 5%;
+  margin-right: 10%
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-around;
 }
-
 
 .location {
   background-color: #dde4f0;
   border: .5px solid #000000;
-  margin: 0px;
-  width: 264px;
+  width: 300px;
+  height: 60px;
 }
 
 h1, h3 {
@@ -26,26 +27,27 @@ body {
 }
 
 .arrow {
-margin-left: 90%;
+ float:right;
 }
 
 
 .container {
   box-sizing: border-box;
   margin: 0 auto;
-  width: 250px;
+  width: 500px;
 }
 
 nav {
   margin: 0 auto;
   padding: 20px 0 15px 15px;
   position: fixed;
-  width: 250px;
+  width: 286px;
   background-color: black;
 }
 
 .restaurant-list {
   padding-top: 50px;
+  margin-bottom: 500p
   width: 250%;
 }
 
